@@ -6,7 +6,7 @@ function SectionCard(props) {
         <div className={`card ${ props.cardClass }`} id={props.section}>
             <div className="card-body">
             <h3 className={`card-title ${props.headingClass}`}>{props.cardHeading}</h3>
-            <div className="row">
+            <div className={props.containerClass}>
                 {props.children}
             </div>
         </div>

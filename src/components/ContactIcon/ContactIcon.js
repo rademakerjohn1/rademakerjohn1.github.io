@@ -3,7 +3,7 @@ import "./ContactIcon.css";
 
 function ContactIcon(props) {
     return(
-    <a href={props.href} target="blank" className="col-4">
+    <a href={props.href} target="blank">
         <i className={props.class}></i>
     </a>
     )

@@ -1,11 +1,11 @@
 .contact .fab, .contact .fas {
     font-size: 3em;
-    margin: 0px 25px;
 }
 
-.contact .row a {
+.contact div a {
     color: white;
     text-align: center;
+    margin: 0px 25px;
 }
 
 .contact .fab:hover, .contact .fas:hover {

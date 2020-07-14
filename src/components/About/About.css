@@ -4,6 +4,10 @@
     display: block;
 }
 
+.headshot-container {
+    padding: 0px;
+}
+
 #about p {
     font-size: 18px;
     padding-left: 0px;
