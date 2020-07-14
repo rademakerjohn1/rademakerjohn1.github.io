@@ -5,6 +5,7 @@
 
 .contact .row a {
     color: white;
+    text-align: center;
 }
 
 .contact .fab:hover, .contact .fas:hover {
