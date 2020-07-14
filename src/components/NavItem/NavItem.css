@@ -1,0 +1,8 @@
+.nav-link .fas {
+        font-size: 1.5em;
+        color: white;
+}
+
+.nav-link .fas:hover {
+    transform: scale(1.5);
+}

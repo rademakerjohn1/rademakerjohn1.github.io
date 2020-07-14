@@ -1,0 +1,20 @@
+.section-card {
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    width: 75%;
+    margin-bottom: 100px;
+}
+
+h3 {
+    width: 100%;
+    border-bottom: 2px dashed #B1D8FF;
+    padding-bottom: 15px;
+    font-size: 3em;
+ } 
+ 
+.row {
+     display: flex;
+     margin: auto;
+     margin-top: 50px;
+ }

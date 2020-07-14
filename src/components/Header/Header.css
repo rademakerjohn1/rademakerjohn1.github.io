@@ -1,0 +1,49 @@
+.display-4 {
+    font-weight: light;
+    font-size: 13vw;
+    color: #B1D8FF;
+    line-height: .85em;
+}
+.lead {
+    font-size: 3vw;
+    letter-spacing: .10em;
+    margin-top: 25px;
+    color: white;
+    text-align: right;
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-transform: uppercase;
+    padding-top: 75px;
+    margin-bottom: 250px;
+}
+
+.jumbotron .container {
+    width: 75%;
+}
+
+
+
+
+
+
+/* .name {
+
+    padding: 25px 50px;
+}
+
+#first {
+    z-index: 1;
+    position: absolute;
+    left: 50px;
+    background-color: indigo;
+}
+
+#last {
+    z-index: -1;
+    background-color: mediumslateblue;
+    position: relative;
+    top: 170px;
+    left: 150px;
+} */

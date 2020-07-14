@@ -1,0 +1,16 @@
+.contact .fab, .contact .fas {
+    font-size: 3em;
+    margin-right: 50px;
+}
+
+.contact .row a {
+    color: white;
+}
+
+.contact .fab:hover, .contact .fas:hover {
+    transform: scale(1.5);
+}
+
+.contact-icons {
+    margin: auto;
+}
