@@ -18,7 +18,7 @@ function About() {
             idea of what I can do.  Thanks for visiting!
             </p>
             <div className="headshot-container col-md-3 col-sm">
-                <img src="headshot.png" alt="headshot" />
+                <img src="headshot-2020.png" alt="headshot" />
             </div>
 
         </SectionCard>
