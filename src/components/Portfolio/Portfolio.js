@@ -7,7 +7,7 @@ import portfolio from "./portfolio.json"
 function Portfolio() {
     return (
         <SectionCard cardHeading={"Portfolio."} cardClass={"section-card portfolio"}
-            headingClass={"text-right"} section={"portfolio"} containerClass={"row"}>
+            headingClass={"align-right"} section={"portfolio"} containerClass={"row"}>
             {portfolio.map(item => (
                 <GridItem projectDemo={item.demo} projectImg={item.img}
                     key={item.title}

@@ -8,6 +8,7 @@
 
 h3 {
     width: 100%;
+    font-weight: normal;
     border-bottom: 2px dashed #B1D8FF;
     padding-bottom: 15px;
     font-size: 3em;
@@ -18,3 +19,23 @@ h3 {
      margin: auto;
      margin-top: 50px;
  }
+
+.align-right {
+    text-align: right;
+}
+
+ @media screen and (max-width: 768px) {
+     
+    h3, .align-right {
+        text-align: center;
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    h3, .align-right {
+        font-size: 2em;
+    }
+}
+

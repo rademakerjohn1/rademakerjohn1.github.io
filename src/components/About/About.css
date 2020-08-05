@@ -1,15 +1,53 @@
-.headshot-container img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
+#about .card-body .card-title {
+    margin-bottom: 50px;
+}
+
+#about p {
+    font-size: 20px;
+    padding-left: 0px;
+    margin-right: 20px;
 }
 
 .headshot-container {
     padding: 0px;
+    float: right;
+    width: 225px;
+    margin: 0px 0px 40px 50px;
 }
 
-#about p {
-    font-size: 18px;
-    padding-left: 0px;
-    padding-right: 50px;
+.headshot-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .headshot-container {
+        width: 150px;
+        margin: 0px 0px 25px 25px;
+    }
+
+    #about p {
+        font-size: 16px;
+        padding-left: 0px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    #about .card-body .card-title {
+        margin-bottom: 25px;
+    }
+    
+    .headshot-container {
+        float: none;
+        margin: auto;
+    }
+
+    #about p {
+        font-size: 14px;
+        margin: auto;
+        margin-top: 25px;
+    } 
 }

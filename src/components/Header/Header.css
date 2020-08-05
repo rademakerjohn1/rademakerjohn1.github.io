@@ -4,12 +4,18 @@
     padding-top: 75px;
     margin-bottom: 250px;
 }
+
+.jumbotron .container {
+    width: 75%;
+}
+
 .display-4 {
     font-weight: light;
     font-size: 13vw;
     color: #B1D8FF;
     line-height: .85em;
 }
+
 .lead {
     font-size: 3vw;
     letter-spacing: .10em;
@@ -18,7 +24,37 @@
     text-align: right;
 }
 
+@media screen and (max-width: 768px) {
 
-.jumbotron .container {
-    width: 75%;
+    .jumbotron {
+        margin-bottom: 150px;
+    }
+
+    .display-4, .lead {
+        text-align: center;
+    }
+    
+    .display-4 {
+        line-height: 1em;
+        font-size: 6em;
+    }
+
+    .lead {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .jumbotron .container {
+        width: 90%;
+    }
+    
+    .display-4 {
+        font-size: 3.5em;
+    }
+
+    .lead {
+        font-size: 1.5em;
+    }
 }

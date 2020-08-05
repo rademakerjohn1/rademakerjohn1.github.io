@@ -5,3 +5,9 @@
 #contact {
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 480px) {
+    .contact .d-flex {
+        margin-top: 25px;
+    }
+}

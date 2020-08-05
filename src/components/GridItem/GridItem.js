@@ -7,7 +7,7 @@ function GridItem(props) {
                     <a href={props.projectDemo} target="blank" className="btn-primary"><img alt="" src={require(`${props.projectImg}`)} width="100%" className="card-img-top img-responsive" /></a>
                     <div className='card-footer'>
                         <h4 className="card-title">{props.projectTitle + " "}</h4>
-                        <p>{props.projectDescription}<br></br><a href={props.projectRepo} target="blank"> Repository</a></p>
+                        <p>{props.projectDescription} <a href={props.projectRepo} target="blank"> Repository</a></p>
                     </div>
                 </div>
             </div>
