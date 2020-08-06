@@ -40,7 +40,7 @@
     }
 
     .lead {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 }
 
@@ -56,5 +56,17 @@
 
     .lead {
         font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    
+    .display-4 {
+        font-size: 2.5em;
+    }
+
+    .lead {
+        font-size: 1.25em;
     }
 }
