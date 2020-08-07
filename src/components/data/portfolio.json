@@ -2,42 +2,42 @@
     {
         "title": "Math Master 2020",
         "description": "Math quiz using HTML5, CSS, JavaScript and LocalStorage.",
-        "img": "./crissy-jarvis-cHhbULJbPwM-unsplash.jpg",
+        "img": "./portfolio/crissy-jarvis-cHhbULJbPwM-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/Math-Master-2020/",
         "demo": "https://rademakerjohn1.github.io/Math-Master-2020/"
     },
     {
         "title": "What Did You Say?",
         "description": "A simple translation app utilizing calls to 2 APIs.",
-        "img": "./volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
+        "img": "./portfolio/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/Project1",
         "demo": "https://rademakerjohn1.github.io/Project1/"
     },
     {
         "title": "Password Randomizer",
         "description": "Basic random string generator.",
-        "img": "./camiah-h6wPTL8VHEA-unsplash.jpg",
+        "img": "./portfolio/camiah-h6wPTL8VHEA-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/Homework3",
         "demo": "https://rademakerjohn1.github.io/Homework3/"
     },
     {
         "title": "Weather Dashboard",
         "description": "5-day forecast using OpenWeather API.",
-        "img": "./nasa-i9w4Uy1pU-s-unsplash.jpg",
+        "img": "./portfolio/nasa-i9w4Uy1pU-s-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/Homework6",
         "demo": "https://rademakerjohn1.github.io/Homework6/"
     },
     {
         "title": "Note Taker",
         "description": "CRUD app using Node and Express JS.",
-        "img": "./jess-bailey-q10VITrVYUM-unsplash.jpg",
+        "img": "./portfolio/jess-bailey-q10VITrVYUM-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/Homework-11---Note-Taker",
         "demo": "https://notetaker-app-jr.herokuapp.com/"
     },
     {
         "title": "Burger App",
         "description": "CRUD app using Node, Express JS, MySQL and Handlebars.",
-        "img": "./pablo-merchan-montes-hyIE90CN6b0-unsplash.jpg",
+        "img": "./portfolio/pablo-merchan-montes-hyIE90CN6b0-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/Homework-13",
         "demo": "https://burger-app-jr.herokuapp.com/burgers"
     }

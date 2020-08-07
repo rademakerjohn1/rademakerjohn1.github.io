@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Rolling Rick",
+        "description": "A visual pun parodying the Rolling Rock beer logo with the Rick Astley 'Rick Roll' phenomenon. Made using Adobe Illustrator and Photoshop.",
+        "img": "./graphics/rollingrick.jpg"
+    },
+    {
+        "title": "Bridal Shower Invitation",
+        "description": "Invitation for a garden party-themed bridal shower. Made using Adobe Illustrator, InDesign and Photoshop",
+        "img": "./graphics/bridal-party.jpg"
+    },
+    {
+        "title": "Mother's Day Advertisement",
+        "description": "Print advertisement for Rittman Beverage Center in Rittman, OH. Made using Adobe Illustrator, InDesign and Photoshop",
+        "img": "./graphics/rittman-bev-mothers-day.jpg"
+    },
+    {
+        "title": "Black Friday Advertisement",
+        "description": "Print advertisement for Highpoint Furniture in Wooster, OH. Made using Adobe InDesign and Photoshop",
+        "img": "./graphics/highpoint-furniture.jpg"
+    },
+    {
+        "title": "Home Improvement Advertisement",
+        "description": "Print advertisement for Hallmark Home Solutions in Smithville, OH. Made using Adobe Illustrator, InDesign and Photoshop",
+        "img": "./graphics/hallmark.jpg"
+    },
+    {
+        "title": "New Year Greeting Advertisement",
+        "description": "Print advertisement for All Creatures Veterinary Clinic & Lodge in Rittman and Wadsworth, OH. Made using Adobe Illustrator, InDesign and Photoshop",
+        "img": "./graphics/all-creatures.jpg"
+    }
+
+]
+
+
