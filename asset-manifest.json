@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a83fb54b.chunk.css",
-    "main.js": "/static/js/main.dbb989e2.chunk.js",
-    "main.js.map": "/static/js/main.dbb989e2.chunk.js.map",
+    "main.js": "/static/js/main.d99ad889.chunk.js",
+    "main.js.map": "/static/js/main.d99ad889.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.108e6e2a.chunk.js": "/static/js/2.108e6e2a.chunk.js",
     "static/js/2.108e6e2a.chunk.js.map": "/static/js/2.108e6e2a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c7f05c258872abb4c7345b3e56dcea1a.js": "/precache-manifest.c7f05c258872abb4c7345b3e56dcea1a.js",
+    "precache-manifest.d947d545f7f186220d828fcaafa9e9a0.js": "/precache-manifest.d947d545f7f186220d828fcaafa9e9a0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a83fb54b.chunk.css.map": "/static/css/main.a83fb54b.chunk.css.map",
     "static/js/2.108e6e2a.chunk.js.LICENSE.txt": "/static/js/2.108e6e2a.chunk.js.LICENSE.txt",
@@ -29,12 +29,12 @@
     "static/media/rittman-bev-mothers-day.jpg": "/static/media/rittman-bev-mothers-day.fab3c63e.jpg",
     "static/media/rollingrick.jpg": "/static/media/rollingrick.d19c7541.jpg",
     "static/media/summit-toyota.jpg": "/static/media/summit-toyota.1868d26b.jpg",
-    "static/media/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash copy.jpg": "/static/media/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash copy.ee8fd44b.jpg"
+    "static/media/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg": "/static/media/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.ee8fd44b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.108e6e2a.chunk.js",
     "static/css/main.a83fb54b.chunk.css",
-    "static/js/main.dbb989e2.chunk.js"
+    "static/js/main.d99ad889.chunk.js"
   ]
 }

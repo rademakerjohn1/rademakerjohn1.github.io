@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d168347bb9414d687c569020c3bd949e",
+    "revision": "5a433ebdb6055881ad9e057cf585d0df",
     "url": "/index.html"
   },
   {
-    "revision": "585372f598ae298b85fb",
+    "revision": "09c1504d9f9ae0b262a0",
     "url": "/static/css/main.a83fb54b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.108e6e2a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "585372f598ae298b85fb",
-    "url": "/static/js/main.dbb989e2.chunk.js"
+    "revision": "09c1504d9f9ae0b262a0",
+    "url": "/static/js/main.d99ad889.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -93,6 +93,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "ee8fd44ba4f540627aab33ab85493a2a",
-    "url": "/static/media/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash copy.ee8fd44b.jpg"
+    "url": "/static/media/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.ee8fd44b.jpg"
   }
 ]);
