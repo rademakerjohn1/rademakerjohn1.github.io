@@ -150,6 +150,10 @@ hr {
     .project-links a:first-child {
         margin-bottom: 0px;
     }
+
+    .description {
+        padding: 15px;
+    }
 }
 
 
