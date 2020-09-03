@@ -12,6 +12,8 @@
     transform: scale(1.5);
 }
 
+.contact .fab, .contact .fas {transition: transform .25s}
+
 .contact-icons {
     margin: auto;
 }

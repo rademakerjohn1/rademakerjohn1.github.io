@@ -3,6 +3,8 @@
         color: white;
 }
 
+.nav-link .fas {transition: transform .25s}
+
 .nav-link .fas:hover {
     transform: scale(1.5);
 }
