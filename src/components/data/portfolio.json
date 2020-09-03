@@ -1,7 +1,7 @@
 [   
     {
         "title": "Queue and Review",
-        "description": "Full-stack application allowing users to track albums of interest and save with feedback on listening.",
+        "description": "Full-stack application allowing users to track and save albums of interest",
         "tools": "Mongoose, Express, React, Passport and Node.js",
         "img": "./portfolio/manuel-sardo-HwFv8EZYC_o-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/QueueAndReview",
