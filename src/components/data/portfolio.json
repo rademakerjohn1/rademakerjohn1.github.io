@@ -2,47 +2,27 @@
     {
         "title": "Queue and Review",
         "description": "An album tracking application that allows the user to keep track of albums they want to listen to and store them in their personal library upon listening.",
-        "img": "./portfolio/Queue-And-Review.png",
+        "img": "./portfolio/manuel-sardo-HwFv8EZYC_o-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/QueueAndReview",
-        "demo": "https://queueandreview.herokuapp.com/"
+        "demo": "https://queueandreview.herokuapp.com/",
+        "type": "portfolio"
     },
     {
         "title": "DreamJob",
         "description": "A user-based job search platform to help users organize and manage their job search.",
-        "img": "./portfolio/DreamJobLandingPage.png",
+        "img": "./portfolio/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg",
         "repo": "https://github.com/AlexSm2020/final-project",
-        "demo": "https://dreamjob2.herokuapp.com/"
+        "demo": "https://dreamjob2.herokuapp.com/",
+        "type": "portfolio"
     },
     {
-        "title": "Math Master 2020",
-        "description": "Math quiz using HTML5, CSS, JavaScript and LocalStorage.",
-        "img": "./portfolio/crissy-jarvis-cHhbULJbPwM-unsplash.jpg",
-        "repo": "https://github.com/rademakerjohn1/Math-Master-2020/",
-        "demo": "https://rademakerjohn1.github.io/Math-Master-2020/"
-    },
-    {
-        "title": "What Did You Say?",
-        "description": "A simple translation app utilizing calls to 2 APIs.",
-        "img": "./portfolio/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
-        "repo": "https://github.com/rademakerjohn1/Project1",
-        "demo": "https://rademakerjohn1.github.io/Project1/"
-    },
-    {
-        "title": "Password Randomizer",
-        "description": "Basic random string generator.",
-        "img": "./portfolio/camiah-h6wPTL8VHEA-unsplash.jpg",
-        "repo": "https://github.com/rademakerjohn1/Homework3",
-        "demo": "https://rademakerjohn1.github.io/Homework3/"
-    },
-    {
-        "title": "Weather Dashboard",
-        "description": "5-day forecast using OpenWeather API.",
-        "img": "./portfolio/nasa-i9w4Uy1pU-s-unsplash.jpg",
-        "repo": "https://github.com/rademakerjohn1/Homework6",
-        "demo": "https://rademakerjohn1.github.io/Homework6/"
+        "title": "Trivia Master",
+        "description": "Timed trivia quiz application built using React",
+        "img": "./portfolio/robin-worrall-FPt10LXK0cg-unsplash.jpg",
+        "repo": "https://github.com/rademakerjohn1/trivia-master/",
+        "demo": "https://rademakerjohn1.github.io/trivia-master/",
+        "type": "portfolio"
     }
-
-    
 ]
 
 
