@@ -24,7 +24,6 @@ class Portfolio extends React.Component {
 
     componentDidMount = () => {
         this.state.projects.forEach(project => project.hover = false)
-        this.state.graphics.forEach(graphic => graphic.hover = false)
     }
 
     handleChange = () => {
@@ -68,7 +67,8 @@ class Portfolio extends React.Component {
                             img={item.img} 
                             key={index}
                             hover={this.state.projects[index].hover} 
-                            description={item.description} 
+                            description={item.description}
+                            tools={item.tools}
                             title={item.title} 
                             repo={item.repo} />
                     )) : graphics.map((graphic, index) => (

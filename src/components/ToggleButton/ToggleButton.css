@@ -1,7 +1,7 @@
 #toggle-button {
     display: block;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: rgb(44,94,143);
     border: none;
     padding: 10px 25px;
@@ -15,4 +15,10 @@
 
 #toggle-button:hover, #toggle-button:active {
     background-color: rgb(20,57,95)
+}
+
+@media screen and (max-width: 32px) {
+    #toggle-button {
+        font-size: 12px;
+    }
 }

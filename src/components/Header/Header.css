@@ -11,7 +11,7 @@
 
 .display-4 {
     font-weight: light;
-    font-size: 13vw;
+    font-size: 12vw;
     color: #B1D8FF;
     line-height: .85em;
 }
@@ -27,7 +27,7 @@
 @media screen and (max-width: 768px) {
 
     .jumbotron {
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
 
     .display-4, .lead {
@@ -36,11 +36,11 @@
     
     .display-4 {
         line-height: 1em;
-        font-size: 6em;
+        font-size: 5em;
     }
 
     .lead {
-        font-size: 2.5em;
+        font-size: 2.25em;
     }
 }
 
@@ -51,7 +51,7 @@
     }
     
     .display-4 {
-        font-size: 3.5em;
+        font-size: 3em;
     }
 
     .lead {
@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
 
     
     .display-4 {
