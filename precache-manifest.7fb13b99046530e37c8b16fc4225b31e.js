@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a433ebdb6055881ad9e057cf585d0df",
+    "revision": "fe33f7c53f22569898b10e0154acb2b1",
     "url": "/index.html"
   },
   {
-    "revision": "09c1504d9f9ae0b262a0",
-    "url": "/static/css/main.a83fb54b.chunk.css"
+    "revision": "a1929b678cc7436f379c",
+    "url": "/static/css/main.0ed93319.chunk.css"
   },
   {
-    "revision": "a679a693e534ea7e446c",
-    "url": "/static/js/2.108e6e2a.chunk.js"
+    "revision": "26eb9c4a7cbcdb45373e",
+    "url": "/static/js/2.7e4b680b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.108e6e2a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7e4b680b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "09c1504d9f9ae0b262a0",
-    "url": "/static/js/main.d99ad889.chunk.js"
+    "revision": "a1929b678cc7436f379c",
+    "url": "/static/js/main.d21f2c2a.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/crissy-jarvis-cHhbULJbPwM-unsplash.d6cc85fa.jpg"
   },
   {
+    "revision": "4709d168f57d14d187c3c78ae945154f",
+    "url": "/static/media/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.4709d168.jpg"
+  },
+  {
     "revision": "7bb900b8b1562c0fca835511d963e3ef",
     "url": "/static/media/hallmark.7bb900b8.jpg"
   },
@@ -72,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.0481afa3.svg"
   },
   {
+    "revision": "20dbac5498dc0529eddbef059b62ca35",
+    "url": "/static/media/manuel-sardo-HwFv8EZYC_o-unsplash.20dbac54.jpg"
+  },
+  {
     "revision": "31324912c401f8a0064119f64ec7be4a",
     "url": "/static/media/nasa-i9w4Uy1pU-s-unsplash.31324912.jpg"
   },
@@ -82,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fab3c63e305b8ee931cab4aa1577d267",
     "url": "/static/media/rittman-bev-mothers-day.fab3c63e.jpg"
+  },
+  {
+    "revision": "c888ed494c324c9dc241d37984a219ea",
+    "url": "/static/media/robin-worrall-FPt10LXK0cg-unsplash.c888ed49.jpg"
   },
   {
     "revision": "d19c7541eb36eda893d4bcd9443029f5",
