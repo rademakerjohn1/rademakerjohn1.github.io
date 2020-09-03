@@ -31,16 +31,15 @@
     justify-content: space-evenly
 }
 
-.project-links a, .project-links button {
+.project-links a {
     background-color: white;
     padding: 5px 25px;
     color: rgb(41,129,193);
     font-weight: bold;
     border-radius: 100px;
-    border: none;
 }
 
-.project-links a:hover, .project-links button:hover {
+.project-links a:hover {
     background-color: rgb(41,129,193);
     text-decoration: none;
     color: white;
@@ -96,6 +95,15 @@
     .portfolio-card {
         margin-bottom: 25px;
         width: 75%;
+    }
+
+    .project-links {
+        flex-direction: column;
+        justify-content: space-evenly
+    }
+
+    .project-links a:first-child {
+        margin-bottom: 10px;
     }
 }
 
