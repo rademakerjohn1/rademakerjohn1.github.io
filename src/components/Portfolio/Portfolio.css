@@ -1,5 +1,13 @@
-#portfolio .row {
+#portfolio .portfolio-row {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#portfolio {
+    width: 90%;
 }
 
 .modal {

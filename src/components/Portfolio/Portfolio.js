@@ -5,6 +5,7 @@ import graphics from "../data/graphics.json";
 import SectionCard from "../SectionCard/SectionCard";
 import GridItem from "../GridItem/GridItem";
 import ToggleButton from "../ToggleButton/ToggleButton"
+import GraphicDesign from "../GraphicDesign/GraphicDesign"
 import Modal from "../Modal/Modal"
 
 class Portfolio extends React.Component {
@@ -13,46 +14,74 @@ class Portfolio extends React.Component {
         super()
         this.state = {
             showGraphics: false,
+            projects: [...portfolio],
+            graphics: [...graphics],
             image: '',
             title: '',
             description: ''
         }
     }
 
+    componentDidMount = () => {
+        this.state.projects.forEach(project => project.hover = false)
+        this.state.graphics.forEach(graphic => graphic.hover = false)
+    }
+
     handleChange = () => {
         this.setState({ showGraphics: !this.state.showGraphics })
+        window.location = "/#portfolio"
     }
 
     handleModal = (imageSource, imageTitle, imageDescription) => {
-        this.setState({ 
+        this.setState({
             image: imageSource,
             title: imageTitle,
             description: imageDescription
         })
     }
 
+    toggleHover = (i) => {
+        let newObj = [...this.state.projects]
+        newObj[i].hover = !newObj[i].hover;
+        this.setState({
+            projects: newObj
+        })
+    }
+
+
     render() {
         return (
             <SectionCard
                 cardHeading={"Portfolio."}
                 cardClass={"section-card portfolio"}
-                headingClass={"align-right"} section={"portfolio"}
-                containerClass={"row"}
-                link={<ToggleButton onClick={() => this.handleChange()} bool={this.state.showGraphics} />}
-            >
+                section={"portfolio"}
+            >   
             <Modal title={this.state.title} image={this.state.image} description={this.state.description} />
-                {!this.state.showGraphics ?
-                    portfolio.map(item => (
-                        <GridItem bool={this.state.showGraphics} projectDemo={item.demo} projectImg={item.img} key={item.title}
-                            projectDescription={item.description} projectTitle={item.title}
-                            projectRepo={item.repo} />
-                    )) :
-                    graphics.map(item => (
-                        <GridItem bool={this.state.showGraphics} projectDemo={null} projectImg={item.img} key={item.title}
-                            projectDescription={item.description} projectTitle={item.title}
-                            projectRepo={null} handleModal={() => this.handleModal(item.img, item.title, item.description)} />
-                    ))
-                }
+
+                <div className="portfolio-row">
+                    {!this.state.showGraphics ? portfolio.map((item, index) => (
+                        <GridItem 
+                            onMouseEnter={() => this.toggleHover(index)} 
+                            onMouseLeave={() => this.toggleHover(index)} 
+                            bool={this.state.showGraphics} 
+                            demo={item.demo} 
+                            img={item.img} 
+                            key={index}
+                            hover={this.state.projects[index].hover} 
+                            description={item.description} 
+                            title={item.title} 
+                            repo={item.repo} />
+                    )) : graphics.map((graphic, index) => (
+                        <GraphicDesign 
+                            key={index} 
+                            hover={this.state.graphics[index].hover} 
+                            onClick={() => this.handleModal(graphic.img, graphic.title, graphic.description)} 
+                            title={graphic.title} img={graphic.img}
+                         />
+                    ))}
+                </div>
+                <ToggleButton showGraphics={this.state.showGraphics} onClick={() => this.handleChange()} />
+
             </SectionCard>
         )
     }
