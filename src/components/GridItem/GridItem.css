@@ -5,6 +5,7 @@
     margin: 10px;
     width: 30%;
     height: 250px;
+    color: white; 
 }
 
 .portfolio-card {transition: transform .75s}
@@ -23,8 +24,25 @@
 
 .description p {
     font-size: smaller;
+    line-height: 1.35em;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
+.description p:nth-of-type(2) {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.35em;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    width: 90%;
+    margin: 5px auto 10px 
+}
 .project-links {
     display: flex;
     flex-direction: row;
@@ -33,10 +51,11 @@
 
 .project-links a {
     background-color: white;
-    padding: 5px 25px;
+    padding: 5px 20px;
     color: rgb(41,129,193);
     font-weight: bold;
     border-radius: 100px;
+    font-size: smaller
 }
 
 .project-links a:hover {
@@ -90,7 +109,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     .portfolio-card {
         margin-bottom: 25px;
@@ -104,6 +123,10 @@
 
     .project-links a:first-child {
         margin-bottom: 10px;
+    }
+
+    hr {
+        display: none;
     }
 }
 
