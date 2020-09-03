@@ -1,8 +1,8 @@
 [   
     {
         "title": "Queue and Review",
-        "description": "A full-stack application allowing users to track of albums of interest and save with feedback on listening.",
-        "tools": "Tools: MongoDB, Mongoose, Express, React, Passport and Node.js",
+        "description": "Full-stack application allowing users to track albums of interest and save with feedback on listening.",
+        "tools": "Mongoose, Express, React, Passport and Node.js",
         "img": "./portfolio/manuel-sardo-HwFv8EZYC_o-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/QueueAndReview",
         "demo": "https://queueandreview.herokuapp.com/",
@@ -11,7 +11,7 @@
     {
         "title": "DreamJob",
         "description": "A user-based job search platform to help users organize and manage their job search.",
-        "tools": "Tools: MongoDB, Mongoose, Express, React and Node.js",
+        "tools": "Mongoose, Express, React and Node.js",
         "img": "./portfolio/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg",
         "repo": "https://github.com/AlexSm2020/final-project",
         "demo": "https://dreamjob2.herokuapp.com/",
@@ -20,7 +20,7 @@
     {
         "title": "Trivia Master",
         "description": "Timed trivia quiz application with score saving ability",
-        "tools": "Tools: React, Local Storage",
+        "tools": "React, Local Storage",
         "img": "./portfolio/robin-worrall-FPt10LXK0cg-unsplash.jpg",
         "repo": "https://github.com/rademakerjohn1/trivia-master/",
         "demo": "https://rademakerjohn1.github.io/trivia-master/",
