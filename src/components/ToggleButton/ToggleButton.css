@@ -1,13 +1,18 @@
 #toggle-button {
     display: block;
     margin: auto;
-    margin-top: 50px;
-    background-color: transparent;
+    margin-top: 30px;
+    background-color: rgb(44,94,143);
     border: none;
+    padding: 10px 25px;
     color: white;
-    text-decoration: underline;
+    border-radius: 25px;
 }
 
 #toggle-button:focus {
     outline: none;
+}
+
+#toggle-button:hover, #toggle-button:active {
+    background-color: rgb(20,57,95)
 }

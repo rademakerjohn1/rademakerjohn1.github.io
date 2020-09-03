@@ -1,9 +1,8 @@
-.modal {
-    max-height: 85vh;
+.modal-header {
+    padding: .5rem;
 }
 
 .modal-header .close {
-    padding: 1rem 1rem 1rem 0;
     margin: -1rem -1rem -1rem 0;
     position: absolute;
     right: 20px;
@@ -11,11 +10,12 @@
 
 #modal-img-container img {
     max-width: 100%;
+    padding: 0px 10px;
 }
 
 .modal-body {
     margin: auto;
-    padding: 0px 1rem;
+    padding: 5px;
 }
 
 .modal-header h4, .modal-footer p {
@@ -28,7 +28,9 @@
     border: none;
 }
 
-.modal-footer p {
+
+.modal-footer {
+    padding-top: 0px;
     font-size: smaller;
     font-style: italic;
 }
