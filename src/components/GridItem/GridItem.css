@@ -6,9 +6,8 @@
     width: 30%;
     height: 250px;
     color: white; 
+    transition: transform .75s
 }
-
-.portfolio-card {transition: transform .75s}
 
 .description {
     position: absolute;
@@ -23,9 +22,8 @@
 }
 
 .description p {
-    font-size: smaller;
     line-height: 1.35em;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -35,22 +33,16 @@
     line-height: 1.35em;
     margin-bottom: 15px;
 }
-
-hr {
-    border: none;
-    height: .5px;
-    background-color: white;
-    width: 90%;
-    margin: 5px auto 10px 
-}
 .project-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly
 }
 
 .project-links a {
     background-color: white;
+    width: 90%;
+    margin: auto;
     padding: 5px 20px;
     color: rgb(41,129,193);
     font-weight: bold;
@@ -58,12 +50,15 @@ hr {
     font-size: smaller
 }
 
+.project-links a:first-child {
+    margin-bottom: 10px;
+}
+
 .project-links a:hover {
     background-color: rgb(41,129,193);
     text-decoration: none;
     color: white;
 }
-
 
 .portfolio-card .card-body {
     padding: 0px;
@@ -120,16 +115,10 @@ hr {
     .project-links {
         flex-direction: column;
         justify-content: space-evenly;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
-    .project-links a:first-child {
-        margin-bottom: 10px;
-    }
 
-    hr {
-        display: none;
-    }
     .description p:nth-of-type(2) {
         margin-bottom: 0px;
     }
@@ -137,18 +126,17 @@ hr {
 }
 
 @media screen and (max-width: 425px) {
-    .project-links {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between
+
+    .portfolio-card, .description {
+        height: 300px;
+    }
+
+    .description p {
+        font-size: smaller;
     }
 
     .project-links a {
         padding: 5px 10px;
-    }
-
-    .project-links a:first-child {
-        margin-bottom: 0px;
     }
 
     .description {

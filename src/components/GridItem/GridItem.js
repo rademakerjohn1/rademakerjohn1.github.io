@@ -9,11 +9,10 @@ function GridItem(props) {
             <div className="description">
                 <h4>{props.title}</h4>
                 <p>{props.description}</p>
-                <hr />
                 <p>{props.tools}</p>
                 <div className="project-links">
-                <a target="blank" href={props.repo}>Repository</a>
                 <a target="blank" href={props.demo}>Deployed</a>
+                <a target="blank" href={props.repo}>Repository</a>
                 </div>
 
             </div>
