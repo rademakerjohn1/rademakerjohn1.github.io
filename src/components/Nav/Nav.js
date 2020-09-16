@@ -5,7 +5,7 @@ import NavItem from "../NavItem/NavItem"
 function Nav() {
   return (
     <nav className="navbar navbar-light sticky-top">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/#">
         <img src={require("./logo.svg")} width="30" alt="logo" />
       </a>
       <div className="navbar-collapse" id="navbarNav">
